@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Web site design #5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="top-area">
+        <div class="title">
+          <div class="title-div">
+          <h3 class="titleb">Brand</h3>
+          </div>
+          <p class="titlep">Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="menu">
+          <div class="menu-pers">Anasayfa</div>
+          <div class="menu-pers">Hakkımızda</div>
+          <div class="menu-pers">Bize Ulaşın</div>
+          <div class="menu-pers">Portfolyo</div>
+        </div>
+
+        <div class="menu-bottom-area">
+
+          <h3 class="menu-bottom-title">Design a Websites</h3>
+
+          <div class="social-media">
+          <button class="instagram">  <i class="fa fa-instagram"></i> @kilavuzkod0 &nbsp;</button>
+          <button class="facebook">  <i class="fa fa-facebook"></i> kilavuzkod &nbsp;</button>
+          <button class="github">  <i class="fa fa-github"></i> Scorpionn0 &nbsp;</button>
+          </div>
+
+          <div class="men-bot-ar">
+          <input class="search" type="text" placeholder="Arama yapınız">
+          <button class="search-button"> <i class="fa fa-search"></i> </button>
+          <button class="bars-button"> <i class="fa fa-bars"></i> </button>
+          </div>
+          <!--Bars kısmına login ekle-->
+
+        </div>
+      </div>
+
+      <div class="bottom-area">
+        <div class="left-area">
+          <!--Burası Sol kısım-->
+          <div class="home-page-title">Anasayfa</div>
+
+          <div class="home-page-pers">
+            <div class="home-page-pers-title">Lorem ipsum</div>
+            <div class="home-page-pers-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
+          </div>
+
+          <div class="home-page-pers">
+            <div class="home-page-pers-title">Lorem ipsum</div>
+            <div class="home-page-pers-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
+          </div>
+
+          <div class="home-page-pers">
+            <div class="home-page-pers-title">Lorem ipsum</div>
+            <div class="home-page-pers-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
+          </div>
+
+
+        </div>
+        <div class="right-area">
+          <!--Burası sağ kısım-->
+          <div class="right-area-title">Son Yazılar</div>
+
+          <div class="yazilar">
+
+            <div class="last-text">
+              <div class="last-text-img"><!--Buraya yazı görseli yerleşecek--></div>
+              <div class="last-text-info">Lorem ipsum</div>
+            </div>
+
+            <div class="last-text-right">
+              <div class="last-text-img-right"><!--Buraya yazı görseli yerleşecek--></div>
+              <div class="last-text-info-right">Lorem ipsum</div>
+            </div>
+
+            <div class="last-text">
+              <div class="last-text-img"><!--Buraya yazı görseli yerleşecek--></div>
+              <div class="last-text-info">Lorem ipsum</div>
+            </div>
+
+            <div class="last-text-right">
+              <div class="last-text-img-right"><!--Buraya yazı görseli yerleşecek--></div>
+              <div class="last-text-info-right">Lorem ipsum</div>
+            </div>
+
+            <div class="last-text">
+              <div class="last-text-img"><!--Buraya yazı görseli yerleşecek--></div>
+              <div class="last-text-info">Lorem ipsum</div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="bar">
+          <button class="bar-off-button"> <i class="fa fa-bars"></i> </button>
+          <div class="sign">
+            <button class="login-button">Login</button>
+            <button class="logout-button">Log out</button>
+            <button class="signup-button">Sign Up</button>
+
+          </div>
+
+          <div class="bar-logo"></div>
+          <div class="bar-brand">Brand</div>
+
+          <h4 class="bar-gizlilik">Gizlilik Politikası</h4>
+        </div>
+
+      </div>
+
+
+
+
+      <!--Buradan aşağısı main div sonu-->
+    </div>
+    <div class="login">
+      <button class="login-close">X</button>
+      <h4 class="login-user-title">Kullanıcı Adı</h4>
+      <input class="user-login" type="text">
+      <h4 class="login-sifre-title">Şifre</h4>
+      <input class="user-password" type="password">
+      <p class="hatirla">Şifremi Unuttum</p>
+      <button class="login-giris"onclick="giris()">Giriş</button>
+      <p class="login-brand">Brand</p>
+    </div>
+
+    <div class="signup">
+
+      <button class="signup-close">X</button>
+      <h4 class="signup-user-title">Kullanıcı Adı</h4>
+      <input class="signup-login"type="text">
+      <h4 class="signup-mail-title">E-Posta</h4>
+      <input class="signup-mail"type="email">
+      <h4 class="signup-password-title">Şifre</h4>
+      <input class="signup-password"type="password">
+
+      <button class="signup-giris"onclick="kayit()">Giriş</button>
+      <p class="signup-brand">Brand</p>
+
+    </div>
+
+
+
+
+  </body>
+  <script type="text/javascript">
+
+$(".bar").hide();
+$(".login").hide();
+$(".signup").hide();
+
+$(".bars-button").click(function(){
+  $(".bar").fadeIn(1000);
+  $(this).hide();
+
+});
+
+$(".bar-off-button").click(function(){
+  $(".bar").fadeOut(1000);
+  $(".bars-button").fadeIn(1000);
+});
+
+$(".user-login").click(function(){
+   $(".login-user-title").css("transition","1s");
+  $(".login-user-title").css("margin-top","20px" );
+});
+$(".user-password").click(function(){
+   $(".login-sifre-title").css("transition","1s");
+  $(".login-sifre-title").css("margin-top","20px" );
+});
+
+
+
+
+$(".signup-login").click(function(){
+   $(".signup-user-title").css("transition","1s");
+  $(".signup-user-title").css("margin-top","20px" );
+});
+
+$(".signup-password").click(function(){
+   $(".signup-password-title").css("transition","1s");
+  $(".signup-password-title").css("margin-top","20px" );
+});
+
+$(".signup-mail").click(function(){
+   $(".signup-mail-title").css("transition","1s");
+  $(".signup-mail-title").css("margin-top","20px" );
+});
+
+$(".signup-button").click(function(){
+  $(".signup").show(1000);
+  $(".main").fadeOut(1000);
+})
+
+$(".signup-close").click(function(){
+  $(".signup").fadeOut(500);
+  $(".main").fadeIn(1000);
+});
+
+
+
+$(".login-button").click(function(){
+    $(".login").show(1000);
+  $(".main").fadeOut(1000);
+});
+$(".login-close").click(function(){
+  $(".login").fadeOut(500);
+  $(".main").fadeIn(1000);
+});
+
+var search = document.getElementsByClassName("search").value;
+$(".search-button").click(function(){
+  alert(search);
+});
+
+$(".login-giris").click(function(){
+  var loginuser = document.getElementsByClassName("user-login").value;
+  loginuser = "";
+  alert("Hoşgeldin "+loginuser);
+  var logpass = document.getElementsByClassName("user-password").value;
+  if (logpass == ""){
+    alert("Şifre alanı boş bırakılamaz");
+  }
+});
+
+
+
+  </script>
+</html>
